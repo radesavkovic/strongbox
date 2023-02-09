@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(ellipse at bottom,#1b2735 0,#090a0f 100%);
+  /* background: url(./assets/background1.png), url(./assets/background2.png) no-repeat; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-main {
+  background: linear-gradient(180deg, #DB61B9 0.01%, #DF2122 100%);
+  border-radius: 5px;
+  color: white !important;
+}
+
+.btn-connect {
+  border: 3px solid transparent !important;
+  border-image: linear-gradient(90deg, #F8DBDB,#F9CDCD,#EC6767,#F7ACAC,#F7D5D5) !important;
+  border-image-slice: 1 !important;
+  box-shadow: 0px 0px 7px 4px rgb(237 108 108 / 60%), 0px 0px 7px 4px rgb(237 108 108 / 60%) inset !important;
+  background: linear-gradient(#F123FF 10%, #FF0000) !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px !important;
+}
+
+.btn-disconnect {
+  border: 3px solid black !important;
+  background: linear-gradient(180deg, #323D4E 0%, #1E2531 100%);
+  color: #F123FF !important;
+  box-shadow: inset 6px 14px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-size: 15px !important;
+}
+
+/* .btn-disconnect:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#F123FF 30%, #FF0000) !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+} */
+
+.btn-contained {
+  background: transparent !important;
+  border: 2px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+.btn-contained:disabled {
+  color: rgb(255,255,255,0.2) !important;
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
